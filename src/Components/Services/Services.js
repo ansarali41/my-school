@@ -1,19 +1,17 @@
 import { Grid } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
 import fakeData from '../../fakeData/fakeData';
-import Banner from '../Banner/Banner';
 import CardDetails from '../CardDetails/CardDetails';
 
-const Home = () => {
-    const data = fakeData.filter(item => item.key <= 6);
+const Services = () => {
     const [courses, setCourses] = useState([]);
     useEffect(() => {
-        setCourses(data);
+        setCourses(fakeData);
     }, []);
 
     return (
         <div>
-            <Banner></Banner>
+            <div>All Courses</div>
             <Grid container direction="row" justify="center">
                 {courses.map(course => (
                     <CardDetails course={course} key={course.key}></CardDetails>
@@ -23,4 +21,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Services;

@@ -2,8 +2,12 @@ import React from 'react';
 
 const PageNotFound = () => {
     return (
-        <div style={{color: 'red', textAlign: 'center',marginTop: '200px'}}>
-            <h1>Page not found ..! <br/> Error 404 !!</h1>
+        <div className="d-flex justify-content-center align-items-center" style={{ height: '54vh' }}>
+            <div style={{ color: 'red', textAlign: 'center' }}>
+                <h1>
+                    Page not found ..! <br /> Error 404 !!
+                </h1>
+            </div>
         </div>
     );
 };
