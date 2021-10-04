@@ -5,7 +5,7 @@ import Banner from '../Banner/Banner';
 import CardDetails from '../CardDetails/CardDetails';
 
 const Home = () => {
-    const data = fakeData.filter(item => item.key <= 6);
+    const data = fakeData.filter(item => item.key <= 4);
     const [courses, setCourses] = useState([]);
     useEffect(() => {
         setCourses(data);
@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Grid container direction="row" justify="center">
+            <Grid container direction="row" justify="center" className="py-5">
                 {courses.map(course => (
                     <CardDetails course={course} key={course.key}></CardDetails>
                 ))}
