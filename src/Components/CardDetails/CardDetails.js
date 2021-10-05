@@ -1,14 +1,12 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import './CardDetails.css';
 
 const CardDetails = props => {
-    const { name, photo, key } = props.course;
+    const { name, photo } = props.course;
 
     return (
-        <Link
-            to={`/volunteer/${key}`}
+        <div
             className="course
         course-card"
         >
@@ -18,7 +16,7 @@ const CardDetails = props => {
                     <Card.Title>{name}</Card.Title>
                 </Card.Body>
             </Card>
-        </Link>
+        </div>
     );
 };
 

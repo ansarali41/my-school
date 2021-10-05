@@ -7,9 +7,12 @@ const Banner = () => {
         <div
             style={{
                 background: `linear-gradient(to bottom,
-            rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
-            url('https://i.ibb.co/7gFRDS8/bg-img.jpg')`,
+            rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+            url('https://i.ibb.co/qmy7Vpp/banner-img.jpg')`,
                 height: '300px',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
             }}
         >
             <div className="text-center pt-5">

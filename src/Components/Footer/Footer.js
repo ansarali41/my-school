@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../images/brand_logo.jpg';
+import logo from '../../images/brand_logo.png';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -11,9 +11,9 @@ const Footer = () => {
                     <div className="col-md-4 col-xl-5">
                         <div className="pr-xl-4">
                             <Link className="brand pt-3 pb-3" to="/">
-                                <img className="brand-logo-light" src={logo} alt="" width="140" height="37" />
+                                <img className="brand-logo-light" src={logo} alt="" width="80" />
                             </Link>
-                            <p>We are an award-winning creative school</p>
+                            <p>We are an award-winning creative online school</p>
                             <p className="rights">
                                 <span>©  </span>
                                 <span className="copyright-year">{new Date().getFullYear()}</span>
@@ -29,13 +29,11 @@ const Footer = () => {
                             <dd>Dhaka, Bangladesh</dd>
                         </dl>
                         <dl className="contact-list">
-                            <dt>email:</dt>
                             <dd>
                                 <a href="mailto:#">myschool@gmail.com</a>
                             </dd>
                         </dl>
                         <dl className="contact-list">
-                            <dt>phones:</dt>
                             <dd>+88387983783</dd>
                         </dl>
                     </div>

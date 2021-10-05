@@ -11,7 +11,9 @@ const Services = () => {
 
     return (
         <div>
-            <div>All Courses</div>
+            <div className="text-center py-3">
+                <h3>All Courses</h3>
+            </div>
             <Grid container direction="row" justify="center">
                 {courses.map(course => (
                     <CardDetails course={course} key={course.key}></CardDetails>

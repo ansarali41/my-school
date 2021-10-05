@@ -1,94 +1,86 @@
 const fakeData = [
     {
-        name: 'Child support',
+        name: 'Learn C++',
         key: 1,
-        photo: 'https://i.ibb.co/DMJCmBc/child-Support.png',
+        photo: 'https://i.ibb.co/vQNJWH5/cplus.jpg',
     },
     {
-        name: 'Refuse shelter',
+        name: 'Advance Web Development',
         key: 2,
-        photo: 'https://i.ibb.co/pLW25bZ/refuse-Shelter.png',
+        photo: 'https://i.ibb.co/6N2cSkb/web-dev.jpg',
     },
     {
-        name: 'Food Charity',
+        name: 'Robotics',
         key: 3,
-        photo: 'https://i.ibb.co/Q87fhDd/food-Charity.png',
+        photo: 'https://i.ibb.co/ckgC4Fh/robotics.jpg',
     },
     {
-        name: 'Host a clothing swap',
+        name: 'Djnago Web Development',
         key: 4,
-        photo: 'https://i.ibb.co/9yk2SJf/cloth-Swap.png',
+        photo: 'https://i.ibb.co/9YLGsKQ/python-django.jpg',
     },
     {
-        name: 'Host a river cleanup',
+        name: 'Python',
         key: 5,
-        photo: 'https://i.ibb.co/dj6rrNW/river-Clean.png',
+        photo: 'https://i.ibb.co/8dYzddR/python.jpg',
     },
     {
-        name: 'Clean water for children',
+        name: 'Physics',
         key: 6,
-        photo: 'https://i.ibb.co/64F0WL8/clean-Water.png',
+        photo: 'https://i.ibb.co/QnL3MpM/physics.jpg',
     },
     {
-        name: 'Good education',
+        name: 'Computer Networking',
         key: 7,
-        photo: 'https://i.ibb.co/wgJh8cL/good-Education.png',
+        photo: 'https://i.ibb.co/54TsSYQ/networking.jpg',
     },
     {
-        name: 'New books for children',
+        name: 'Math',
         key: 8,
-        photo: 'https://i.ibb.co/3CBGf81/newBooks.png',
+        photo: 'https://i.ibb.co/QKD4Qyt/math.jpg',
     },
     {
-        name: 'Host a study group',
+        name: 'Professional Logo Designing',
         key: 9,
-        photo: 'https://i.ibb.co/gVCnqfR/study-Group.png',
+        photo: 'https://i.ibb.co/YcXF8Wr/logo-design.jpg',
     },
     {
-        name: 'Build birdhouse for your neighbors',
+        name: 'Laravel development',
         key: 10,
-        photo: 'https://i.ibb.co/NNkZSC0/bird-House.png',
+        photo: 'https://i.ibb.co/DkDM1dv/laravel.png',
     },
     {
-        name: 'Organize books at the library',
+        name: 'Advance Java',
         key: 11,
-        photo: 'https://i.ibb.co/kSZsnBm/library-Books.png',
+        photo: 'https://i.ibb.co/0FMXv1x/java.jpg',
     },
     {
-        name: 'Give a seminar on driving safety',
+        name: 'Information and Communication Technology',
         key: 12,
-        photo: 'https://i.ibb.co/gvhFXW4/drive-Safety.png',
+        photo: 'https://i.ibb.co/TH6NLjw/ict.jpg',
     },
     {
-        name: 'Give free music lessons',
+        name: 'Free music lessons',
         key: 13,
         photo: 'https://i.ibb.co/CHCk82H/music-Lessons.png',
     },
     {
-        name: 'Teach people how to register to vote',
+        name: 'Advance English',
         key: 14,
-        photo: 'https://i.ibb.co/yqBtTHm/vote-Register.png',
+        photo: 'https://i.ibb.co/zsTdHYN/English.jpg',
     },
     {
-        name: 'Clean up your local park',
+        name: 'Data Science',
         key: 15,
-        photo: 'https://i.ibb.co/1KWWqzG/clearn-Park.png',
+        photo: 'https://i.ibb.co/xY54tWT/data-science.jpg',
     },
     {
-        name: 'Give IT help to local adults',
+        name: 'Computer Science and Engineering',
         key: 16,
-        photo: 'https://i.ibb.co/H4h3LsJ/ITHelp.png',
-    },
-    {
-        name: 'Foster a shelter animal',
-        key: 17,
-        photo: 'https://i.ibb.co/7nV9bZj/animal-Shelter.png',
-    },
-    {
-        name: 'Babysit during PTA meetings',
-        key: 18,
-        photo: 'https://i.ibb.co/ySH36xF/babySit.png',
+        photo: 'https://i.ibb.co/bghCT0d/cse.jpg',
     },
 ];
 
 export default fakeData;
+
+//

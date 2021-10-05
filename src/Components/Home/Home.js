@@ -14,7 +14,10 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Grid container direction="row" justify="center" className="py-5">
+            <div className="text-center py-2">
+                <h3>Best Courses</h3>
+            </div>
+            <Grid container direction="row" justify="center" className="pt-3 pb-5">
                 {courses.map(course => (
                     <CardDetails course={course} key={course.key}></CardDetails>
                 ))}
